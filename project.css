@@ -1,0 +1,123 @@
+.container {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  margin: 20px;
+  font-family: sans-serif;
+}
+.left {
+  width: 400px;
+  text-align: center;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+.right {
+  width: 400px;
+  text-align: center;
+  background:rgb(115,37,132);
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+input[type=text] {
+  width: 85%;
+  padding: 8px 10px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: white;
+  background-color: rgb(238,238,238);
+}
+input[type=password] {
+  width: 85%;
+  padding: 8px 10px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: white;
+  background-color: rgb(238,238,238);
+}
+input[type=submit] {
+  width: 85%;
+  padding: 8px 10px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: white;
+  background-color: rgb(156,39,176);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+  input[type=checkbox] {
+
+    position: relative;
+    top: 5px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+  #check {
+    color: #545453;
+  }
+
+ .register {
+   border: solid white 1.5px;
+   margin-top: 30px;
+   margin-left: 125px;
+   width: 155px;
+   height: 50px;
+   border-radius: 40px;
+   font-weight: bold;
+   color: white;
+ }
+
+ #arrow {
+   height: 30px;
+   vertical-align: -8px;
+   padding-top: 10px;
+ }
+ .social {
+   margin: 10px;
+ }
+.hrdivider {
+  position: relative;
+  margin-bottom: 20px;
+  width: 85%;
+  text-align: center;
+  margin-left: 30px;
+  color: #545453;
+}
+
+.hrdivider span {
+  position: relative;
+  top: -20px;
+  background: #fff;
+  padding: 2px 20px;
+  font-size: 16px;
+}
+h1 {
+  margin: 40px;
+  font-size: 40px;
+}
+#add {
+  margin-top: 120px;
+}
+.center {
+  font-weight: bold;
+  font-style: italic;
+}
+#hi {
+  margin: 20px;
+}
